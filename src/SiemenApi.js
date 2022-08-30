@@ -33,7 +33,7 @@ function SiemenApi() {
                     <div>
                       <h2>{Title}</h2>
                       <p>
-                        {readMore ? content : `${content.substring(0, 400)}...`};
+                        {readMore ? content : `${content.substring(0, 350)}...`};
                         <button className="btn" onClick={() => setReadMore(!readMore)}>
                           {readMore ? "show less" : "Read More"}
                         </button>
